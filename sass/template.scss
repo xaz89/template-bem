@@ -1,0 +1,99 @@
+@import './base';
+@import './mixins';
+@import './blocks';
+@import './elements';
+@import './modifiers';
+// @use "./_base.scss";
+
+%align-items-center {
+    display: flex;
+    align-items: center;
+  }
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: $white;
+}
+
+.menuTemplate{
+    background-color: darken($white, 10%);
+    @include transform(rotate(0deg));
+    @include transition(all .5s);
+    @include grid(grid);
+    // @include linear-gradient(to bottom, white, black);
+    nav{
+       
+        height: 35px;
+    }
+    
+    ul {
+        height: 35px;
+        @extend %align-items-center;
+        justify-content: space-around;
+    }
+   a{
+    color: $white;
+    text-decoration: none;
+    background-color: darken($white, 20%);
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include transition(all .5s);
+    @extend %align-items-center;
+    &:hover { 
+        cursor: pointer;
+        background-color: darken($white, 40%);
+        @include transition(all .2s);
+        border: darken($white, 40%);
+      }
+   }
+   .logo {
+    margin-right: auto;
+}
+}
+
+header {
+    background: blue;
+}
+
+header p {
+    color: yellow;
+}
+
+
+header {
+    background: blue;
+    p {
+        color: yellow;
+        span{
+            font-size: large;
+        }
+    }
+    small {
+        font-size: 20px;
+    }
+}
+
+
+/* .button {
+    @include button-base;
+    &--primary {
+        background-color: $primary-color;
+    }
+    &--secondary {
+        background-color: $secondary-color;
+    }
+    &--muted {
+        background-color: $muted-color;
+    }
+} */
+
+
+
+

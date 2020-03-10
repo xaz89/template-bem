@@ -1,0 +1,485 @@
+.header {
+  background-color: #e6e6e6;
+}
+
+.main {
+  background: yellow;
+}
+
+.button {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  padding-bottom: calc(.5em - 1px);
+  padding-top: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  height: 2.5em;
+  -webkit-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:active, .button:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  box-shadow: 1px 1px 5px 0px #b3b3b3;
+}
+.button:disabled {
+  background-color: #cccccc;
+}
+.button:disabled:hover {
+  cursor: auto;
+  border: none;
+}
+
+.text {
+  color: #333333;
+}
+
+.alert {
+  color: #ff9305;
+  padding: 1em;
+  background-color: #f7f7f7;
+}
+
+.badge {
+  color: #ffffff;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+}
+
+.button--primary {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  padding-bottom: calc(.5em - 1px);
+  padding-top: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  height: 2.5em;
+  -webkit-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #00d1b2;
+  border: 1px solid #00d1b2;
+}
+.button--primary:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button--primary:active, .button--primary:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  box-shadow: 1px 1px 5px 0px #b3b3b3;
+}
+.button--primary:disabled {
+  background-color: #cccccc;
+}
+.button--primary:disabled:hover {
+  cursor: auto;
+  border: none;
+}
+.button--primary:hover {
+  background-color: #00b89c;
+}
+
+.text--primary {
+  color: #333333;
+  color: #00d1b2;
+}
+
+.alert--primary {
+  color: #ff9305;
+  padding: 1em;
+  background-color: #f7f7f7;
+  background-color: rgba(0, 209, 178, 0.6);
+}
+
+.badge--primary {
+  color: #ffffff;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  background-color: #00d1b2;
+}
+
+.button--secondary {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  padding-bottom: calc(.5em - 1px);
+  padding-top: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  height: 2.5em;
+  -webkit-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #ff9305;
+  border: 1px solid #ff9305;
+}
+.button--secondary:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button--secondary:active, .button--secondary:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  box-shadow: 1px 1px 5px 0px #b3b3b3;
+}
+.button--secondary:disabled {
+  background-color: #cccccc;
+}
+.button--secondary:disabled:hover {
+  cursor: auto;
+  border: none;
+}
+.button--secondary:hover {
+  background-color: #eb8500;
+}
+
+.text--secondary {
+  color: #333333;
+  color: #ff9305;
+}
+
+.alert--secondary {
+  color: #ff9305;
+  padding: 1em;
+  background-color: #f7f7f7;
+  background-color: rgba(255, 147, 5, 0.6);
+}
+
+.badge--secondary {
+  color: #ffffff;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  background-color: #ff9305;
+}
+
+.button--muted {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  padding-bottom: calc(.5em - 1px);
+  padding-top: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  height: 2.5em;
+  -webkit-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: black;
+  border: 1px solid black;
+}
+.button--muted:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button--muted:active, .button--muted:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  box-shadow: 1px 1px 5px 0px #b3b3b3;
+}
+.button--muted:disabled {
+  background-color: #cccccc;
+}
+.button--muted:disabled:hover {
+  cursor: auto;
+  border: none;
+}
+.button--muted:hover {
+  background-color: black;
+}
+
+.text--muted {
+  color: #333333;
+  color: black;
+}
+
+.alert--muted {
+  color: #ff9305;
+  padding: 1em;
+  background-color: #f7f7f7;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.badge--muted {
+  color: #ffffff;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  background-color: black;
+}
+
+.button--primario2 {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  padding-bottom: calc(.5em - 1px);
+  padding-top: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  height: 2.5em;
+  -webkit-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px 0px #b3b3b3;
+  box-shadow: 3px 3px 5px 0px #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #00d1b2;
+  border: 1px solid #00d1b2;
+}
+.button--primario2:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button--primario2:active, .button--primario2:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 5px 0px #b3b3b3;
+  box-shadow: 1px 1px 5px 0px #b3b3b3;
+}
+.button--primario2:disabled {
+  background-color: #cccccc;
+}
+.button--primario2:disabled:hover {
+  cursor: auto;
+  border: none;
+}
+.button--primario2:hover {
+  background-color: #00b89c;
+}
+
+.text--primario2 {
+  color: #333333;
+  color: #00d1b2;
+}
+
+.alert--primario2 {
+  color: #ff9305;
+  padding: 1em;
+  background-color: #f7f7f7;
+  background-color: rgba(0, 209, 178, 0.6);
+}
+
+.badge--primario2 {
+  color: #ffffff;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  background-color: #00d1b2;
+}
+
+.menuTemplate a, .menuTemplate ul {
+  display: flex;
+  align-items: center;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.menuTemplate {
+  background-color: #e6e6e6;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  display: -ms-grid;
+  display: grid;
+}
+.menuTemplate nav {
+  height: 35px;
+}
+.menuTemplate ul {
+  height: 35px;
+  justify-content: space-around;
+}
+.menuTemplate a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #cccccc;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.menuTemplate a:hover {
+  cursor: pointer;
+  background-color: #999999;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border: #999999;
+}
+.menuTemplate .logo {
+  margin-right: auto;
+}
+
+header {
+  background: blue;
+}
+
+header p {
+  color: yellow;
+}
+
+header {
+  background: blue;
+}
+header p {
+  color: yellow;
+}
+header p span {
+  font-size: large;
+}
+header small {
+  font-size: 20px;
+}
+
+/* .button {
+    @include button-base;
+    &--primary {
+        background-color: $primary-color;
+    }
+    &--secondary {
+        background-color: $secondary-color;
+    }
+    &--muted {
+        background-color: $muted-color;
+    }
+} */
+
+/*# sourceMappingURL=template.css.map */

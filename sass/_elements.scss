@@ -1,0 +1,12 @@
+.button {
+    @include button-base; 
+}
+.text {
+    @include text-base; 
+}
+.alert {
+    @include alert-base; 
+}
+.badge {
+    @include badge-base; 
+}
